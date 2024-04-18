@@ -27,7 +27,7 @@ const login = () => {
                                 <Link to={'/forgotpassword'} className='fgp mb-2'>Quên mật khẩu?</Link>
                                 <Link to={'/signup'} className='regis'>Đăng ký</Link>
                             </div>
-                            <span className='sp-option my-2'>HOẶC</span>
+                            <span className='sp-option my-2 mb-4'>HOẶC</span>
                             <div className='api'>
                                 <button className='fb-icon mb-4'><FaFacebook className='text-info'/>FACEBOOK</button>
                                 <button className='gg-icon'><FcGoogle/>GOOGLE</button>

@@ -1,11 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 const forgotpassword = () => {
     return <>
-        <form className='form-fgp d-flex flex-column'>
-            <div className='fgp-details'>Đặt lại mật khẩu</div>
-            <input className='input1 mb-4' type="text" placeholder='Tên tài khoản' autoComplete='off' name='phoneOrEmail' />
-        </form>
+        <div className="forgot-password-container">
+            <div className="form-container">
+                <form className='form-fgp'>
+                    <div className='d-flex justify-content-start align-items-center'>
+                        <Link to={'/'}><IoMdArrowRoundBack className='return-icon' /></Link>
+                        <h3 className='fgp-title mt-3 px-4 mx-2'>Đặt lại mật khẩu</h3>
+                    </div>
+                    <input className='input-fgp' type="email" placeholder='Email của bạn' required />
+                    <button type="submit" className='btn-fgp'>Tiếp Theo</button>
+                </form>
+            </div>
+        </div>
     </>
 }
 
