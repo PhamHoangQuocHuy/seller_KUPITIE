@@ -13,7 +13,7 @@ const header = () => {
                         </div>
                     </div>
                     <div className="col-6">
-                        <Link className='need-help d-flex justify-content-end'>Bạn cần giúp đỡ ?</Link>
+                        <Link to={'/'} className='need-help d-flex justify-content-end'>Bạn cần giúp đỡ ?</Link>
                     </div>
                 </div>
             </div>

@@ -161,7 +161,7 @@ h3 {
 
 /* SIGN UP */
 .bg-banner {
-  background: url(assets/image/bg-signup.png);
+  background: url(assets/images/bg-signup.png);
 }
 
 .signup-content {
@@ -235,8 +235,99 @@ h3 {
 .btn-fgp:hover {
   opacity: 0.8;
 }
-.return-icon{
+
+.return-icon {
   width: 30px;
   height: 60px;
   color: var(--search);
+}
+
+/* HOME */
+
+.header-top {
+  background-color: var(--lighter1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-support {
+  font-size: 0.875rem;
+}
+
+.header-store-info {
+  display: flex;
+  align-items: center;
+}
+
+.store-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.store-warehouse-select {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.header-divider {
+  background-color: gray;
+  width: 1px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.user-greeting {
+  font-size: 17px;
+  color: #666;
+  margin-right: 6cm;
+}
+
+.drop-down-icon {
+  width: auto;
+  height: 30px;
+}
+
+.btn-drop {
+  background-color: var(--lighter2);
+  border: none;
+}
+
+.sidebar-menu {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--lighter);
+  width: 4cm;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: black;
+}
+
+.pro-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--lighter);
+  border: 1px solid black;
+  padding-right: 16px;
+}
+
+.btn-add {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

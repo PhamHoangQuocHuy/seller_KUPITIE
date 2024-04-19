@@ -9,7 +9,7 @@ const forgotpassword = () => {
                 <form className='form-fgp'>
                     <div className='d-flex justify-content-start align-items-center'>
                         <Link to={'/'}><IoMdArrowRoundBack className='return-icon' /></Link>
-                        <h3 className='fgp-title mt-3 px-4 mx-2'>Đặt lại mật khẩu</h3>
+                        <h3 className='fgp-title mt-3 px-4 mx-2'>Reset password</h3>
                     </div>
                     <input className='input-fgp' type="email" placeholder='Email của bạn' required />
                     <button type="submit" className='btn-fgp'>Tiếp Theo</button>
