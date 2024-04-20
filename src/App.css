@@ -314,10 +314,9 @@ h3 {
 
 .pro-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   background-color: var(--lighter);
-  border: 1px solid black;
   padding-right: 16px;
 }
 
@@ -330,4 +329,88 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 20px;
+  margin-left: 4cm;
+  background-color: var(--lighter2);
+  width: auto;
+  height: auto;
+  font-size: 16px;
+}
+
+/* ORDER */
+.table-responsive {
+  margin-left: 4cm;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid black;
+  align-content: center;
+}
+
+.table thead th {
+  background-color: var(--primary1);
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: var(--lighter1);
+}
+
+/* PRODUCTS */
+.add-icon {
+  width: 40px;
+  height: 30px;
+}
+
+.order-details input {
+  width: 8cm;
+}
+
+.btn-find {
+  width: auto;
+  height: 45px;
+  border: none;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.table-responsive img {
+  width: auto;
+  height: 3cm;
+}
+
+.filters {
+  display: flex;
+}
+
+.filter {
+  margin: 0 10px;
+  position: relative;
+  width: auto;
+}
+
+.filter-select {
+  padding: 5px;
+  margin-left: 5px;
 }

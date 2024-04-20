@@ -8,7 +8,7 @@ const home = () => {
                     <Link className='edit-link' to={'/order'}>Đơn hàng</Link>
                 </div>
                 <div className='sidebar-menu'>
-                    <Link className='edit-link' to={'/'}>Sản phẩm</Link>
+                    <Link className='edit-link' to={'/products'}>Sản phẩm</Link>
                 </div>
             </div>
         </div>

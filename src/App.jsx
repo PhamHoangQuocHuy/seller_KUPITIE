@@ -7,6 +7,7 @@ import Forgotpassword from './pages/forgotpassword'
 import Home from './pages/home'
 import Layout_after_login from './components/layout_after_login'
 import Order from './pages/order'
+import Products from './pages/products'
 function App() {
   const isLoggedIn = true;
   return <>
@@ -18,6 +19,7 @@ function App() {
           <Route path='/forgotpassword' element={<Forgotpassword />}></Route>
           <Route path='home' element={<Home />}></Route>
           <Route path='order' element={<Order />}></Route>
+          <Route path='products' element={<Products />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
